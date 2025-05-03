@@ -8,7 +8,7 @@ function App()
   const dis = (e)=>{
     const name = e.target.name
     const value = e.target.value
-    setInputs(values=>({...values,[name]:value})) // Important syntax to note down9
+    setInputs(values=>({...values,[name]:value})) // Important syntax to note down
   }
 
   function insertfun(){
